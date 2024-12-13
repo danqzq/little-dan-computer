@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a446f38110d74d49a1e05c71e71a1ab7, type: 3}
+  m_Name: Workshop 0
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Echo
+  <Description>k__BackingField: Your task is to output the given inputs to the program.
+    Make use of the INP and OUT instructions. Feel free to look into the instruction
+    set under "Help"
+  <BaseCode>k__BackingField: 
+  <Input>k__BackingField:
+  - 420
+  <Hints>k__BackingField:
+  - INP will load the number into the accumulator.
+  - OUT will output the number in the accumulator.
+  - The solution is to call INP and OUT after.
+  _expectedOutput: 420
+  <BonusTasks>k__BackingField:
+    variableRequirement: 0
+    branchingRequirement: 0
+    formattedOutputRequirement: 

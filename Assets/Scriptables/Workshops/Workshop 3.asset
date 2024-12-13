@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a446f38110d74d49a1e05c71e71a1ab7, type: 3}
+  m_Name: Workshop 3
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Factorial Calculator
+  <Description>k__BackingField: 'A factorial is the product of all numbers from 1
+    to N.
+
+
+    5! = 1 * 2 * 3 * 4 * 5 = 120'
+  <BaseCode>k__BackingField: 
+  <Input>k__BackingField:
+  - 6
+  <Hints>k__BackingField:
+  - Make use of a JMP operation to jump back to a previous instruction.
+  - Create a data block to store the result. Set it to 1. Treat the given input as
+    a counter and subtract one every time you multiply a number to the result.
+  - Load the data block holding the counter to the accumulator and jump to halt the
+    program when it's equal to 0.
+  _expectedOutput: 720
+  <BonusTasks>k__BackingField:
+    variableRequirement: 0
+    branchingRequirement: 0
+    formattedOutputRequirement: 

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a446f38110d74d49a1e05c71e71a1ab7, type: 3}
+  m_Name: Workshop 1
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Two Number Sum
+  <Description>k__BackingField: 'Write a program which adds two numbers given by
+    inputs and outputs the result.
+
+
+    For the whole solution:
+
+    - Allocate
+    only one data block (one instance of DAT)
+
+    - Use the OTC instruction and
+    the ASCII chart to print a formatted output (A+B=C)'
+  <BaseCode>k__BackingField: A DAT
+  <Input>k__BackingField:
+  - 60
+  - 9
+  <Hints>k__BackingField:
+  - Read the instruction set to be familiar with all the opcodes and the operands
+    they use.<br><br>Help > Instruction Set
+  - Make use of the "ADD" instruction, which will add a number which is stored in
+    the address that is passed to it as an operand.
+  - Make sure to store the first number using STA before asking for inputting the
+    second number.
+  _expectedOutput: 69
+  <BonusTasks>k__BackingField:
+    variableRequirement: 1
+    branchingRequirement: 0
+    formattedOutputRequirement: 60+9=69
