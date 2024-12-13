@@ -11,15 +11,15 @@ An open-source assembly simulator based on LMC (Little Man Computer), aimed to t
 Made with Unity 6000.0.22f1
 
 ## Core Components:
-Memory: the computer's memory
+- Memory: the computer's memory
 Registers:
-IR (Instruction Register): holds the instruction to be executed
-MAR (Memory Address Register): holds the current address that is being used for a read/write operation
-MBR (Memory Buffer Register): holds data that is going to be written into a memory address
-PC (Program Counter): holds the index of the current executing instruction
-Accumulator: holds a number, used for performing arithmetic operations
+- IR (Instruction Register): holds the instruction to be executed
+- MAR (Memory Address Register): holds the current address that is being used for a read/write operation
+- MBR (Memory Buffer Register): holds data that is going to be written into a memory address
+- PC (Program Counter): holds the index of the current executing instruction
+- Accumulator: holds a number, used for performing arithmetic operations
 ## Additional Components:
-Graphics Screen: displays each memory chunk as a color, being able to read and process the data in different color formats (RGB565, RGB555, RGB444 and etc.)
+- Graphics Screen: displays each memory chunk as a color, being able to read and process the data in different color formats (RGB565, RGB555, RGB444 and etc.)
 
 ---
 ## Memory Handling Mechanism:
