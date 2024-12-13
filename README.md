@@ -7,6 +7,9 @@ An open-source assembly simulator based on LMC (Little Man Computer), aimed to t
 
 ## [The Instruction Set](https://ldc.danqzq.games/instruction-set/)
 
+## Unity Version
+Made with Unity 6000.0.22f1
+
 ## Core Components:
 Memory: the computer's memory
 Registers:
